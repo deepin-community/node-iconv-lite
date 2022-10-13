@@ -1,0 +1,29 @@
+Source: node-iconv-lite
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 13)
+ , mocha <!nocheck>
+ , node-unorm <!nocheck>
+ , node-iconv <!nocheck>
+ , node-safe-buffer (>= 5.2.1+~cs2.1.2) <!nocheck>
+ , node-semver <!nocheck>
+ , dh-sequence-nodejs
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-iconv-lite
+Vcs-Git: https://salsa.debian.org/js-team/node-iconv-lite.git
+Homepage: https://github.com/ashtuchkin/iconv-lite
+Rules-Requires-Root: no
+
+Package: node-iconv-lite
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends}
+ , node-safe-buffer (>= 5.2.1+~cs2.1.2)
+ , nodejs
+Description: Pure JS character encoding conversion
+ Convert character encodings in pure javascript.

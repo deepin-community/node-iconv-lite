@@ -1,0 +1,28 @@
+Description: increase test timeout
+Author: Xavier Guimard <yadd@debian.org>
+Bug-Debian: https://bugs.debian.org/965106
+Forwarded: not-needed
+Last-Update: 2020-07-16
+
+--- a/test/dbcs-test.js
++++ b/test/dbcs-test.js
+@@ -151,7 +151,7 @@
+ iconv.encode('', 'utf8'); // Load all encodings.
+ 
+ describe("Full DBCS encoding tests", function() {
+-    this.timeout(10000); // These tests are pretty slow.
++    this.timeout(30000); // These tests are pretty slow.
+ 
+     for (var enc in iconv.encodings) {
+         if (iconv.encodings[enc].type === '_dbcs') (function(enc) {
+--- a/test/sbcs-test.js
++++ b/test/sbcs-test.js
+@@ -51,7 +51,7 @@
+ 
+ var sbcsEncodingTests = {};
+ describe("Full SBCS encoding tests", function() {
+-    this.timeout(10000);
++    this.timeout(30000);
+ 
+     for (var enc in iconv.encodings)
+         if (iconv.encodings[enc].type === '_sbcs') (function(enc) {

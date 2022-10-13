@@ -1,0 +1,77 @@
+node-iconv-lite (0.6.3-1) unstable; urgency=medium
+
+  * Team upload
+  * Replace embedded safer-buffer by a dependency to node-safe-buffer ≥
+    5.2.1+~cs2.1.2
+  * Bump debhelper compatibility level to 13
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * New upstream version 0.6.3
+  * Fix test (Closes: #997584)
+  * Update lintian overrides
+
+ -- Yadd <yadd@debian.org>  Mon, 25 Oct 2021 13:43:31 +0200
+
+node-iconv-lite (0.5.1-3) unstable; urgency=medium
+
+  * Team upload
+  * Increase test timeout (Closes: #965106)
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 16 Jul 2020 11:01:00 +0200
+
+node-iconv-lite (0.5.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add some missing copyright entries
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Wed, 15 Jul 2020 14:46:37 +0200
+
+node-iconv-lite (0.5.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 0.5.1
+  * Add "Multi-Arch: foreign"
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 31 May 2020 08:25:50 +0200
+
+node-iconv-lite (0.4.23-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.5.0
+  * New upstream version 0.4.23
+  * Refresh patch
+  * Add build dependency to node-semver
+  * Enbed component: safer-buffer
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 08 Mar 2020 11:22:32 +0100
+
+node-iconv-lite (0.4.13-3) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Ignore some encoding errors in test (fixes temporarily debci)
+  * Use pkg-js-tools auto test & install
+  * Update VCS fields to salsa
+  * Update lintian overrides
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 20 Jan 2020 13:49:01 +0100
+
+node-iconv-lite (0.4.13-2) unstable; urgency=medium
+
+  * Team upload
+  * Install all required files (Closes: #844333)
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 14 Nov 2016 21:06:00 +0530
+
+node-iconv-lite (0.4.13-1) unstable; urgency=low
+
+  * Initial release (Closes: #744348)
+
+ -- Sruthi Chandran <srud@disroot.org>  Wed, 31 Aug 2016 00:09:07 +0530
