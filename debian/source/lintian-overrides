@@ -1,5 +1,5 @@
 #False positives: data
-source-is-missing generation/gen-sbcs.js
-source-contains-prebuilt-javascript-object generation/gen-sbcs.js
-very-long-line-length-in-source-file encodings/tables/gb18030-ranges.json line 1 is 2216 characters long (>512)
-very-long-line-length-in-source-file generation/gen-sbcs.js line 108 is 7943 characters long (>512)
+source-is-missing [generation/gen-sbcs.js]
+source-contains-prebuilt-javascript-object [generation/gen-sbcs.js]
+very-long-line-length-in-source-file 2216 > 512 [encodings/tables/gb18030-ranges.json:1]
+very-long-line-length-in-source-file 7943 > 512 [generation/gen-sbcs.js:108]
