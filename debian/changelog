@@ -1,3 +1,19 @@
+node-iconv-lite (0.6.3-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Update lintian override info format in d/source/lintian-overrides on line 2-5.
+  * Update standards version to 4.6.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 14 Dec 2022 19:07:15 +0000
+
+node-iconv-lite (0.6.3-2) unstable; urgency=medium
+
+  * Team upload
+  * Drop nodejs dependency
+  * Increase test timeout
+
+ -- Yadd <yadd@debian.org>  Mon, 29 Nov 2021 21:53:58 +0100
+
 node-iconv-lite (0.6.3-1) unstable; urgency=medium
 
   * Team upload

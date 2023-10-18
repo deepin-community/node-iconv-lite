@@ -11,7 +11,7 @@ Last-Update: 2020-07-16
  
  describe("Full DBCS encoding tests", function() {
 -    this.timeout(10000); // These tests are pretty slow.
-+    this.timeout(30000); // These tests are pretty slow.
++    this.timeout(60000); // These tests are pretty slow.
  
      for (var enc in iconv.encodings) {
          if (iconv.encodings[enc].type === '_dbcs') (function(enc) {
@@ -22,7 +22,7 @@ Last-Update: 2020-07-16
  var sbcsEncodingTests = {};
  describe("Full SBCS encoding tests", function() {
 -    this.timeout(10000);
-+    this.timeout(30000);
++    this.timeout(60000);
  
      for (var enc in iconv.encodings)
          if (iconv.encodings[enc].type === '_sbcs') (function(enc) {

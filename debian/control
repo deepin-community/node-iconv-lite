@@ -12,7 +12,7 @@ Build-Depends:
  , node-safe-buffer (>= 5.2.1+~cs2.1.2) <!nocheck>
  , node-semver <!nocheck>
  , dh-sequence-nodejs
-Standards-Version: 4.6.0
+Standards-Version: 4.6.1
 Vcs-Browser: https://salsa.debian.org/js-team/node-iconv-lite
 Vcs-Git: https://salsa.debian.org/js-team/node-iconv-lite.git
 Homepage: https://github.com/ashtuchkin/iconv-lite
@@ -24,6 +24,5 @@ Multi-Arch: foreign
 Depends:
  ${misc:Depends}
  , node-safe-buffer (>= 5.2.1+~cs2.1.2)
- , nodejs
 Description: Pure JS character encoding conversion
  Convert character encodings in pure javascript.
